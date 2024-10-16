@@ -13,6 +13,8 @@ body {
   padding: 20px;
   margin-left: 150px;
   border-radius: 5px;
+  font-size: 18px;   /* checklist başlığı */
+  font-weight: bold;
 }
 
 .CarList {

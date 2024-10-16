@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.NavBar {
+  background: #fff; /* Navbar arka plan rengi */
+}
+
+.Sidebar {
+  width: 250px; /* Yan menü genişliği */
+  background: #f4f4f4; /* Yan menü arka plan rengi */
+  padding: 20px;
+  margin-left: 150px;
+  border-radius: 5px;
+}
+
+.CarList {
+  flex-grow: 1; /* Ana içerik alanı esnek olmalı */
+  padding: 20px;
+}
+
+.Footer {
+  background: #222; /* Footer arka plan rengi */
+  color: #fff; /* Footer metin rengi */
+  text-align: center;
+  padding: 10px 0;
+}

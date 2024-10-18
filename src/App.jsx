@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 import img1 from "./assets/car1.jpg";
 import img2 from "./assets/car2.jpg";
+import img3 from "./assets/car3.jpg";
 import img4 from "./assets/car4.jpg";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
@@ -30,7 +31,7 @@ function App() {
           />
           <CarList
             Title={"Hyundai Getz"}
-            image={img2}
+            image={img3}
             Price={"430.100"}
             Engine={"1.4 DOHC"}
             ModalYear={"2002"}

@@ -84,7 +84,7 @@ export default function Footer() {
           <div
             style={{
               borderRight: "1px solid gray",
-              padding: "5px",
+              padding: "15px",
             }}
           >
             <h3>Hızlı Linkler</h3>
@@ -115,7 +115,7 @@ export default function Footer() {
         <hr />
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <img src={anadolu} alt="" />
-          <p>&copy; Emir Güngör </p>
+          <p style={{alignSelf:'flex-end'}}>&copy; Emir Güngör </p>
           <div>
             <img src={pay1} alt="" />
             <img src={pay2} alt="" />

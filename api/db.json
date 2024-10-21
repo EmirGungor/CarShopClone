@@ -1,0 +1,37 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "image": "https://s3-alpha-sig.figma.com/img/dae8/47aa/62f6ded8ef242419f05689d03e234240?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LOeaas2Jx4HAGfdzlPBeMUW~OtnVPNg0oSi5b8kE07AxFPxffQyQ-WkZ1EmvwdXmbjHtKAdiHuudWVYeleEZ4KeLmODz0V8Hh5eBWJWQqAaqRxpWMq03DgjNbaYus-O4UasShiAFtAhEyXgKndFZwT8xxdx7styKcu7uKD0dES5siyvAYEdP-tEwdy4uPLqZ4q4J7fcpeT2BVK3PpF~pj23X6xUp~YfR5sIjyVQA9O7pO2XFyn49ThZghJkL4RSmquS7Mt0AjxI0HjOePTIEievARnrtrhngH78OCxVaMuc-jcxAB9mHBLxn04CJeGfOpFu9zgG8n5O8JafXfLCNUA__",
+      "title": "RENAULT MEGANE",
+      "engine": "1.3 TCe Joy EDC",
+      "km": "38.991",
+      "model": "2022",
+      "transmission": "Otomatik",
+      "fuel": "Benzin",
+      "price": "849.400"
+    },
+    {
+      "id": 2,
+      "image": "https://s3-alpha-sig.figma.com/img/620c/aa21/774d046e0bed1886e8651aebcab11168?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NzjO-jznEdk8SEkX2E~P1n6rSMyn3xVWySsE~HYZ911tWRoy-MpeEy21Z-MecBqz7Qkp0ddzgf2U7a2-plYKZ~HG4~-O9DtR9yRkUfUFPxrkPOi49dqOocVULDcAshDftge7mUtyponUfobqa8w6t-4kFoqvW7jjRLlLpVe5qFI8kpanMhZF2U4F4KsJddkONeQN-9H9fGw4EHyIS4su1RQ~SVhF0cVs7CO4IT5fux~4RSs2P22qjlp6Dfdh41pkja4aX3pKT7Y4M07YoBhO6qBxJIHl~C2IspeC-Gvrf~A3cE1VxioZZJY6dlEL5IAemgUGBD1ouPkLMNIxQ6-unA__",
+      "title": "FORD TOURNEO COURIER",
+      "engine": "1.5 TDCI Titanium",
+      "km": "66.629",
+      "model": "2021",
+      "transmission": "Manuel",
+      "fuel": "Dizel",
+      "price": "712.400"
+    },
+    {
+      "id": 3,
+      "image": "https://s3-alpha-sig.figma.com/img/14cd/f7ee/15fab8420a891b7651f711bc880daedf?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HjBXnYx811ZhGITpZxDMn7RgNVySrGsHsOb3KtzJRYJdBKzcs~aSgT2tZ31OnWSLhUfQ8xup1zvrpFRKrVHuyxRNGLmwWP8O7~tlQttEQumm-TQh5kF4uOFjttQbvvFDZt2kilTfhfb0RvUwB3N-6lUqQrLRTk2sml5C9LYJYebo7nMPc0bSp6aKmGRZ0-g8AeGA8grUEM26oW2WKIIQIubTwyykNgj38jYlp-CXpBLOxQjKNhmcB64O3XgB5O80nv3uTeVp8icMEHkxVkhw1VIUp7ihtYcpdD-3~eBtZ5i7h1WHlYmUMHjfpmhUSn-gAGCXmRX4LgH8f1L1I0AisA__",
+      "title": "RENAULT CLIO",
+      "engine": "1.0 SCe Joy",
+      "km": "20.904",
+      "model": "2023",
+      "transmission": "Manuel",
+      "fuel": "Benzin",
+      "price": "642.400"
+    }
+  ]
+}

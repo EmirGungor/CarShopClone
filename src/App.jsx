@@ -7,17 +7,25 @@ import Footer from "./components/Footer";
 import Section1 from "./components/Section1";
 import CarCard from "./components/CarCard";
 import { Box } from "@mui/material";
+import axios from "axios";
 
 function App() {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
     // Verileri JSON Server'dan çekmek için fetch kullanıyoruz
-    fetch("http://localhost:3000/cars")
-      .then((response) => response.json())
-      .then((data) => setCars(data))
-      .catch((error) => console.error("Error fetching data: ", error));
+    // fetch("http://localhost:3000/cars")
+    //   .then((response) => response.json())
+    //   .then((data) => setCars(data))
+    //   .catch((error) => console.error("Error fetching data: ", error));
+    getCars();
   }, []); // 1 kere çalışsın diye
+
+  //Verileri çekmek için fetch kullanmak yerine axios kullandık.
+  const getCars = async () => {
+    const response = await axios.get("http://localhost:3000/cars");
+    setCars(response.data) //useState'e aktarım araba verilerini kullandık
+  };
 
   return (
     <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
@@ -41,7 +49,6 @@ function App() {
           ))}
         </Box>
       </Box>
-
       <Section1 />
       <Footer />
     </Box>

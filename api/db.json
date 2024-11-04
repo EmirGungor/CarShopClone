@@ -32,6 +32,28 @@
       "transmission": "Manuel",
       "fuel": "Benzin",
       "price": "642.400"
+    },
+    {
+      "id": 4,
+      "image": "https://s3-alpha-sig.figma.com/img/a324/eb7f/da5b83b721b953d8534759c42e6ec19e?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=csN9iILLAa6rvsm-WQr3ETu0NCTCwlimzlo9pR6XchPwXnBjLGz7PtGfxzEeghGHijKYrj0S0VPJRra6ljmdzd9oMGHRsa9vVWPn4kx2QA4lH2tCf9YGAdBKQVch7X5GuoxJL2zC4OMDj6zMePSQiScptxh3kVgK9nYI1cWbtOpInexqtreziOjLRZVNbTz2TBTR4QD1KQzLGT3g3h-99VPi5cvzjwn7MvNOcre9rcWB6RrlQ6H3qHdIq7dV7lQrhd-cxJiZKC4yeU-4XGyzqnvZm0yKB2YqL2pVRQ592Fw8oxnZW7ReiVJ4jQGvIE3GPH0GTpYQtrQGaosM-TCz5g__",
+      "title": "AUDI A3",
+      "engine": "1.6 TDI Ambiente S-Tronic",
+      "km": "120.121KM",
+      "model": "2015",
+      "transmission": "Otomatik",
+      "fuel": "Dizel",
+      "price": "1.064.400"
+    },
+    {
+      "id": 5,
+      "image": "https://s3-alpha-sig.figma.com/img/69a4/9f69/b6d3338f3cc8bf763aa43b6859655d76?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fdVp0Tn~o6P2Ptkk0XxoSHdy4ONylWIXq~QFJBUa6vCDZSac1G1on1QUTDtbP7QB~9BOzliJujW5kanvPgOTPVTpAmHypDOELaRy97yFy2MwRqbamTsfUcu0-s45~-hePWDbwirGCEAhw9W0aIzZJLH46rd3kSOa6K00aohZEEnkEsfMm~Vaxk7-AAqcNpgy-qAshn6ShN0QFWbEjfMekkIoDu42BT0AZIYJp3ewiYhrDe3GxdHrX5kxcZQpgX9IauCPyAVuiKCFeTuzzta~syK9orVxwwbs7nS1iCiz6XTPdQCsbirnC6AkWX6lRf1duYOLyDbBCizTvcF7ePw1-g__",
+      "title": "TOYOTA HI-LUX",
+      "engine": "2.4 D-4D 4x4 Invincible Otomatik",
+      "km": "65.326KM",
+      "model": "2022",
+      "transmission": "Otomatik",
+      "fuel": "Dizel",
+      "price": "1.404.400"
     }
   ]
 }

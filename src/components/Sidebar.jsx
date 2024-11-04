@@ -1,12 +1,13 @@
 /* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React, { useState, useEffect } from "react";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import { TextField, Box } from "@mui/material";
 
-const Sidebar = ({ onFilterChange }) => {
-  const brands = ["RENAULT MEGANE", "FORD TOURNEO COURIER", "RENAULT CLIO"];
+const Sidebar = ({ onFilterChange, searchTerm, onSearchChange }) => {
+  const brands = ["RENAULT", "FORD", "AUDI", "TOYOTA"];
   const transmissions = ["Otomatik", "Manuel"];
   const fuelTypes = ["Benzin", "Dizel"];
 
@@ -17,8 +18,8 @@ const Sidebar = ({ onFilterChange }) => {
   const handleCheckboxChange = (category, value, setState) => {
     setState((prev) =>
       prev.includes(value)
-        ? prev.filter((item) => item !== value) // Seçiliyse kaldır
-        : [...prev, value] // Seçili değilse ekle
+        ? prev.filter((item) => item !== value)
+        : [...prev, value]
     );
   };
 
@@ -32,7 +33,17 @@ const Sidebar = ({ onFilterChange }) => {
 
   return (
     <div className="Sidebar">
-      {/* Marka Seçenekleri */}
+      {/* Arama Inputu */}
+      <Box mb={2}>
+        <TextField
+          label="Ara"
+          variant="outlined"
+          fullWidth
+          value={searchTerm}
+          onChange={(e) => onSearchChange(e.target.value)}
+        />
+      </Box>
+
       <FormGroup>
         <p>Marka</p>
         {brands.map((brand) => (
@@ -51,7 +62,6 @@ const Sidebar = ({ onFilterChange }) => {
         ))}
       </FormGroup>
 
-      {/* Vites Tipi */}
       <FormGroup>
         <p>Vites Tipi</p>
         {transmissions.map((transmission) => (
@@ -70,7 +80,6 @@ const Sidebar = ({ onFilterChange }) => {
         ))}
       </FormGroup>
 
-      {/* Yakıt Tipi */}
       <FormGroup>
         <p>Yakıt Tipi</p>
         {fuelTypes.map((fuel) => (
